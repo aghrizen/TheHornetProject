@@ -2,7 +2,6 @@
 Dans la première semaine du travail dans le projet, 
 nous avons commencé par comprendre ce que l'ancien groupe a fait.
 
-nous avons commencé par comprendre ce que l'ancient groupe a fait.
 
   Tout d'abord, nous avons essayé de tester le code qui permet 
   de manipuler la caméra qui prends les photos des frelons:                                                                                       
