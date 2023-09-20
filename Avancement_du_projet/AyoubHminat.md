@@ -8,4 +8,10 @@ nous avons commencé par comprendre ce que l'ancient groupe a fait.
 
     
 - Puis, pour voir s'il marche avec la carte, nous avons 
-    utilisé les deux cartes que nous aviez: une fonctionne bien mais l'autre non.                                                                                                                               
+    utilisé les deux cartes que nous aviez: une fonctionne bien mais l'autre non.                                                                                                                                                                            
+-  Nous avons essayé de refaire le soudage de quelques fils de l'autre
+ carte qui n'a pas fonctionné, mais nous avons pas réussir.
+    
+  La deuxième chose c'était de faire un test sur le code qui manipule le moteur:                                                                           
+-  Il n'a pas fonctionné puisuq'il y avait des problèmes de 
+    positionnement du moteur et de voltage (le nombre de volte de la carte et du moteur).
