@@ -5,7 +5,7 @@
   a manipuler la caméra qui prends les photos des frelons:                                                                                       
     - Il s'agit d'un code sur Arduino. Nous avons le compilé, il n'y avait aucune erreure.
     - Puis, pour voir s'il marche avec la carte, nous avons 
-    utilisé les deux cartes que nous aviez: une fonctionne bien mais l'autre non.
+    utilisé les deux cartes que nous aviez: une fonctionne bien mais l'autre non.                                                                                                                                                                            
     - Nous avons essayé de refaire le soudage de quelques fils de l'autre
     carte qui n'a pas fonctionné, mais nous avons pas réussir.
     
