@@ -31,3 +31,7 @@ Dans la deuxième semaine, nous avons tester une nouvelle carte qui prend les ph
 Objectifs pour la semaine prochaine: 
 - Utiliser une alimentation pour alimenter le moteur et le faire fonctionner avec les bonnes valeurs des angles.
 - Fixer la carte caméra de détection dans la boite.
+
+
+## Semaine 3: 27/10/2023
+Dans cette semaine, nous avons alimenté le moteur pour résoudre le problème que nous avions la dernière fois (le courant)
