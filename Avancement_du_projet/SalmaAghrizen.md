@@ -34,4 +34,5 @@ Objectifs pour la semaine prochaine:
 
 
 ## Semaine 3: 27/10/2023
-Dans cette semaine, nous avons alimenté le moteur pour résoudre le problème que nous avions la dernière fois (le courant)
+- Dans cette semaine, nous avons alimenté le moteur pour résoudre le problème que nous avions la dernière fois (le courant), et il a bien fonctionné avec les bons angles du positionnement.
+- Par suite, nous avons positionné la carte qui détécte le mouvement dans notre boite: le positionnement a été fait après avoir tester tout endroit de la boite dans lequel nous pouvons prendre assez des photos qui couvrent toute la boite un peu près avec des bons fonctionnement et détéction du capteur.
