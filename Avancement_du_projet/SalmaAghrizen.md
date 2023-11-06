@@ -1,4 +1,5 @@
 ## Semaine 1: 20/09/23
+### (Travail en groupe)
 Dans la première semaine du travail dans le projet, 
 nous avons commencé par comprendre ce que l'ancien groupe a fait.
 
@@ -21,6 +22,8 @@ nous avons commencé par comprendre ce que l'ancien groupe a fait.
 
 
 ## Semaine 2: 17/10/2023
+### (Travail en groupe)
+
 Dans la deuxième semaine, nous avons tester une nouvelle carte qui prend les photos des frelons. 
 
 -  En fait, celle-ci est mieux que l'autre que nous avons tester la dernière fois, car, elle permet de détecter les mouvements grace à un capteur intégré: en fonction des mouvements, elle prend les photos. Pour faire fonctionner le code, nous avons installer la bibliothèque EloquentSurveillance de Arduino, version 13, pour éviter toute erreur de la compilation.
@@ -34,8 +37,18 @@ Objectifs pour la semaine prochaine:
 
 
 ## Semaine 3: 27/10/2023
+### (Travail en groupe)
+
 - Dans cette semaine, nous avons alimenté le moteur pour résoudre le problème que nous avions la dernière fois (le courant), et il a bien fonctionné avec les bons angles du positionnement.
 - Par suite, nous avons positionné la carte qui détécte le mouvement dans notre boite: le positionnement a été fait après avoir tester tout endroit de la boite dans lequel nous pouvons prendre assez des photos qui couvrent toute la boite un peu près avec des bons fonctionnement et détéction du capteur.
 - Nous avons tenté de comprendre les outils utilisés dans la partie de reconnaissance d'image afin de déterminer si la photo prise par la caméra contient un frelon ou une abeille, puis de transmettre l'information, en particulier la position, dans le cas où il s'agit d'un frelon.
 - L'outil utilisé est un site web appelé " Edge Impulse ", qui constitue une plateforme de développement pour l'apprentissage automatique sur des appareils embarqués. Cette plateforme facilite le processus de construction, de déploiement et de gestion des modèles d'apprentissage automatique sur des appareils embarqués, le rendant ainsi accessible et simple.
 - Dans notre cas, l'objectif est de prendre un maximum de photos de frelons et d'abeilles sous différents angles, positions et éclairages, afin de fournir cette base de données sur le site web pour entraîner le modèle à reconnaître la cible (le frelon, dans notre cas). Enfin, le modèle nous fournira un code final qui sera compatible avec la carte ESP32..
+
+
+## Semaine 4: 01/11/2023
+### (Travail individuel)
+
+- Dans cette séance, nous avons vu les images des frelons qui ont été prises dernièrement. Il y'avait des photos avec le flash et sans flash (elles ont été prises par la carte qui détécte le mouvement). Le problème c'était la qualité des images: en fait c'était presque impossible de distinguer entre les frelons et les abeilles qui se trouvent dans les photos.
+- Pour avancer, j'ai pris les images de base qui se retrouvent dans le projet des ancient étudiants de l'année dernière (les images qu'ils ont pris en fixant le frelon et l'abeille). Et j'ai essayé de regénérer le code sur *Edge Impulse* en séléctionnant de nouveau le frelon et/ou l'abeille qui apparaient sur les photos. Comme ça, je peux également arriver à comprendre comment ça marche le logiciel en ligne, pour travailler sur ce dernier facilement pour la prochaîne séance quand nous allons avoir les nouvelles images qui sont plus claires.
+- En fin, j'ai générée le code, il reste uniquement de le tester sur la carte pour la séance prochaîne: en effet, la compilation prend un long temps, à cause des multiples librairies et fichier *.h qui ont été générés par *Edge Impulse*. 
