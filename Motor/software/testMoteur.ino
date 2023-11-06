@@ -49,7 +49,7 @@ void setup() {
 }
 
 void loop() {
-
+  //MIN Moteur vertical
   pca9685.setPWM(SER0, 0,SERVOMIN_1 );
   Serial.println(SERVOMIN_2);
 
