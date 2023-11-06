@@ -1,4 +1,6 @@
 ## Semaine 1: 20/09/23
+### (Travail en groupe)
+
 Dans la première semaine du travail dans le projet, 
 nous avons commencé par comprendre ce que l'ancien groupe a fait.
 
