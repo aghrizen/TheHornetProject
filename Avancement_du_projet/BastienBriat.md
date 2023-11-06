@@ -23,6 +23,8 @@ nous avons commencé par comprendre ce que l'ancien groupe a fait.
 
 
 ## Semaine 2: 17/10/2023
+### (Travail en groupe)
+
 Dans la deuxième semaine, nous avons tester une nouvelle carte qui prend les photos des frelons. 
 
 -  En fait, celle-ci est mieux que l'autre que nous avons tester la dernière fois, car, elle permet de détecter les mouvements grace à un capteur intégré: en fonction des mouvements, elle prend les photos. Pour faire fonctionner le code, nous avons installer la bibliothèque EloquentSurveillance de Arduino, version 13, pour éviter toute erreur de la compilation.
@@ -36,6 +38,8 @@ Objectifs pour la semaine prochaine:
 
 
 ## Semaine 3: 27/10/2023
+### (Travail en groupe)
+
 - Dans cette semaine, nous avons alimenté le moteur pour résoudre le problème que nous avions la dernière fois (le courant), et il a bien fonctionné avec les bons angles du positionnement.
 - Par suite, nous avons positionné la carte qui détécte le mouvement dans notre boite: le positionnement a été fait après avoir tester tout endroit de la boite dans lequel nous pouvons prendre assez des photos qui couvrent toute la boite un peu près avec des bons fonctionnement et détéction du capteur.
 - Nous avons tenté de comprendre les outils utilisés dans la partie de reconnaissance d'image afin de déterminer si la photo prise par la caméra contient un frelon ou une abeille, puis de transmettre l'information, en particulier la position, dans le cas où il s'agit d'un frelon.
