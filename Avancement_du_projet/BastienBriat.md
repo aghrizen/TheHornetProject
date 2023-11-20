@@ -1,6 +1,5 @@
 ## Semaine 1: 20/09/23
 ### (Travail en groupe)
-
 Dans la première semaine du travail dans le projet, 
 nous avons commencé par comprendre ce que l'ancien groupe a fait.
 
@@ -29,19 +28,32 @@ Dans la deuxième semaine, nous avons tester une nouvelle carte qui prend les ph
 
 -  En fait, celle-ci est mieux que l'autre que nous avons tester la dernière fois, car, elle permet de détecter les mouvements grace à un capteur intégré: en fonction des mouvements, elle prend les photos. Pour faire fonctionner le code, nous avons installer la bibliothèque EloquentSurveillance de Arduino, version 13, pour éviter toute erreur de la compilation.
 
--  Deuxième chose que nous avons fait, c'était d'essayer de résoudre le problème que nous avons observé la dernière fois dans le code du moteur.
--  Après avoir corriger le code avec les valeurs correctes et les instructions valides, nous avons trouver un autre problème qui empêche le bon fonctionnement du moteur et qui le bloque: le courant était insuffisant pour alimenter le moteur, il refait chaque fois la fonction setup() sans entrer dans la boucle. Donc, il faut utiliser une alimentation pour lui alimenter et éviter son bloquage.
+-  Par la suite, avec la carte fonctionnelle, nous avons testé le code "testmoteur" qui permet de manipuler le moteur:                                                                           
+-  Problèmes observés :
+   
+    - Voltage 3.3V (max uc) au lieu de 4.8V - 6V. Toutefois, le moteur fonctionne même à ce voltage. Le seul problème est que les valeurs données par le constructeur, comme par ex la vitesse de rotation en °/s ont été mesuré à ces valeurs. Nous devrons donc le recalculer avec 3.3V. 
 
+    Le défaut de cette méthode est que nous "bloquons le proccess" pendant la rotation. Mais ce temps est négligeage car il s'agit de 0.1 - 0.3s. Les frelons volent en stationnaire, nous n'avons pas besoin d'une réponse rapide mais bien d'une réponse précise.
+
+
+-  En fait, celle-ci est mieux que l'autre que nous avons tester la dernière fois, car, elle permet de détecter les mouvements grace à un capteur intégré: en fonction des mouvements, elle prend les photos. Pour faire fonctionner le code, nous avons installer la bibliothèque EloquentSurveillance de Arduino, version 13, pour éviter toute erreur de la compilation.
+
+-  Deuxième chose que nous avons fait, c'était d'essayer de résoudre le problème que nous avons observé la dernière fois dans le code du moteur.
+
+-  Nous avons rencontrer un problème qui empêchait le bon fonctionnement du moteur et qui le bloquait: le courant était insuffisant pour alimenter le moteur, il refait chaque fois la fonction setup() sans entrer dans la boucle. Donc, il faut utiliser une alimentation pour lui alimenter et éviter son bloquage.
 Objectifs pour la semaine prochaine: 
 - Utiliser une alimentation pour alimenter le moteur et le faire fonctionner avec les bonnes valeurs des angles.
 - Fixer la carte caméra de détection dans la boite.
 
 
+
 ## Semaine 3: 27/10/2023
 ### (Travail en groupe)
 
-- Dans cette semaine, nous avons alimenté le moteur pour résoudre le problème que nous avions la dernière fois (le courant), et il a bien fonctionné avec les bons angles du positionnement.
+- Dans cette semaine, nous avons alimenté le moteur avec une alimentation externe 5V pour résoudre le problème que nous avions la dernière fois (courant inssufisant), et nous avons pu confirmer que les constantes présentes dans le code pour les angles du positionnement (0°, 90°, 180°).
+- Nous avons teste avec des valeurs d'angles aléatoire pour etre sûr que c'est proportionnel. 
 - Par suite, nous avons positionné la carte qui détécte le mouvement dans notre boite: le positionnement a été fait après avoir tester tout endroit de la boite dans lequel nous pouvons prendre assez des photos qui couvrent toute la boite un peu près avec des bons fonctionnement et détéction du capteur.
 - Nous avons tenté de comprendre les outils utilisés dans la partie de reconnaissance d'image afin de déterminer si la photo prise par la caméra contient un frelon ou une abeille, puis de transmettre l'information, en particulier la position, dans le cas où il s'agit d'un frelon.
 - L'outil utilisé est un site web appelé " Edge Impulse ", qui constitue une plateforme de développement pour l'apprentissage automatique sur des appareils embarqués. Cette plateforme facilite le processus de construction, de déploiement et de gestion des modèles d'apprentissage automatique sur des appareils embarqués, le rendant ainsi accessible et simple.
 - Dans notre cas, l'objectif est de prendre un maximum de photos de frelons et d'abeilles sous différents angles, positions et éclairages, afin de fournir cette base de données sur le site web pour entraîner le modèle à reconnaître la cible (le frelon, dans notre cas). Enfin, le modèle nous fournira un code final qui sera compatible avec la carte ESP32..
+
