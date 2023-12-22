@@ -69,5 +69,6 @@ Objectifs pour la semaine prochaine:
 ## Semaine 5: 04/12/2023
 ### (Travail en groupe)
 
-- Dans cette séance, nous avons arrivé de faire fonctionner le code génerer par l'outil d'I.A Edge Impulse avec la carte électronique du modèle WROVER. En fait
+- Dans cette séance, nous avons arrivé de faire fonctionner le code génerer par l'outil d'I.A Edge Impulse avec la carte électronique du modèle WROVER.
+- Pour faire fonctionner la carte, nous avons modifié les pins de la carte dans le code. Et on a effectué quelques autres modifications au niveau des librairies utilisées.
 - Maintenant, il faut trouver une solution pour contrôler la puissance du laser qui se trouve sur le moteur pas-à-pas: parce que sans contrôleur, ça reste dangereux de l'utiliser. Il faut voir si on doit utiliser une carte particulière pour le contôle ou un générateur de 12V.
