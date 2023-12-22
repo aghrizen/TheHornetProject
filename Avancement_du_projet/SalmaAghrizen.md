@@ -63,4 +63,11 @@ Objectifs pour la semaine prochaine:
 
 - Dans cette séance, nous avons vu les images des frelons qui ont été prises dernièrement. Il y'avait des photos avec le flash et sans flash (elles ont été prises par la carte qui détécte le mouvement). Le problème c'était la qualité des images: en fait c'était presque impossible de distinguer entre les frelons et les abeilles qui se trouvent dans les photos.
 - Pour avancer, j'ai pris les images de base qui se retrouvent dans le projet des ancient étudiants de l'année dernière (les images qu'ils ont pris en fixant le frelon et l'abeille). Et j'ai essayé de regénérer le code sur *Edge Impulse* en séléctionnant de nouveau le frelon et/ou l'abeille qui apparaient sur les photos. Comme ça, je peux également arriver à comprendre comment ça marche le logiciel en ligne, pour travailler sur ce dernier facilement pour la prochaîne séance quand nous allons avoir les nouvelles images qui sont plus claires.
-- En fin, j'ai générée le code, il reste uniquement de le tester sur la carte pour la séance prochaîne: en effet, la compilation prend un long temps, à cause des multiples librairies et fichier *.h qui ont été générés par *Edge Impulse*. 
+- En fin, j'ai générée le code, il reste uniquement de le tester sur la carte pour la séance prochaîne: en effet, la compilation prend un long temps, à cause des multiples librairies et fichier *.h qui ont été générés par *Edge Impulse*.
+
+
+## Semaine 5: 04/12/2023
+### (Travail en groupe)
+
+- Dans cette séance, nous avons arrivé de faire fonctionner le code génerer par l'outil d'I.A Edge Impulse avec la carte électronique du modèle WROVER. En fait
+- Maintenant, il faut trouver une solution pour contrôler la puissance du laser qui se trouve sur le moteur pas-à-pas: parce que sans contrôleur, ça reste dangereux de l'utiliser. Il faut voir si on doit utiliser une carte particulière pour le contôle ou un générateur de 12V.
